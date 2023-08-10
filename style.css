@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* code for section 1 */
+
+.section1 img {
+    width: 100%;
+    height: 97vh;
+}
+
+.test img {
+    position: absolute;
+    top: 20px;
+    left: 545px;
+    width: 25%;
+    height: 20%;
+}
+
+.test .num {
+    position: absolute;
+    top: 50px;
+    right: 145px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1589ff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    position: absolute;
+    top: 156px;
+    left: 165px;
+
+}
+
+.nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.35);
+    height: 45px;
+    width: 220px;
+    text-align: center;
+    padding-top: 12px;
+    letter-spacing: 0.8px;
+
+}
+
+.nav ul li:nth-child(3) {
+    position: relative;
+    top: 0px;
+    padding-left: 5px;
+}
+
+.section1 .maintext {
+    position: absolute;
+    color: #ffffff;
+    top: 296px;
+    left: 335px;
+    font-size: 2.3rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-shadow: rgba(0, 0, 0, 0.35);
+}
+
+.section1 .maintext p {
+    position: relative;
+    left: 35px;
+}
+
+/* code for section 2*/
+
+.section2 {
+    margin-top: -4px;
+    height: 78vh;
+    width: 100%;
+    background: #157dec;
+}
+
+.section2 .performance {
+    position: relative;
+    top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 60px;
+    color: #ffffff;
+}
+
+.section2 .performance .groups {
+    display: flex;
+    width: 520px;
+}
+
+.section2 .performance .groups h3 {
+    padding-bottom: 8px;
+}
+
+.section2 .performance .groups p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.section2 .performance .groups a {
+    margin-top: 10px;
+}
+
+.section2 .performance .groups img {
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+.section2 .performance .service {
+    font-size: 2.9rem;
+    margin-left: 150px;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+.section2 .performance .service::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 240px;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+/* code for section 3*/
+
+.section3 {
+    position: relative;
+}
+
+.section3 .aboutsection img {
+    width: 100%;
+    height: 98vh;
+}
+
+.section3 .aboutsection .aboutus {
+    position: absolute;
+    top: 90px;
+    left: 250px;
+    font-size: 2.9rem;
+    color: black;
+    font-weight: bold;
+}
+
+.section3 .aboutsection .aboutus::after {
+    content: '';
+    position: absolute;
+    height: 8px;
+    width: 300px;
+    border-radius: 5px;
+    background: #000000;
+}
+
+.section3 .aboutsection .abouthistory {
+    position: absolute;
+    left: 250px;
+    top: 250px;
+}
+
+.section3 .aboutsection .abouthistory div {
+    margin-bottom: 30px;
+}
+
+.section3 .aboutsection .abouthistory p {
+    line-height: 1.5;
+}
+
+.section3 .aboutsection .abouthistory span {
+    color: #157dec;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.section3 .aboutsection .abouthistory .aboutread {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* code for section 4*/
+
+.section4 {
+    margin-top: -4px;
+    height: 60vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.section4 .opportunity .opdata {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    padding-top: 35px;
+    color: #ffffff;
+}
+
+.section4 .opportunity .opauthor {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.section4 .opportunity .opauthor p:nth-child(1) {
+    color: #ffffff;
+    padding-bottom: 5px;
+}
+
+.section4 .opportunity .opauthor p:nth-child(2) {
+    color: #000000;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.section4 .opportunity .maincircle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section4 .opportunity .maincircle .maincircle2 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.section4 .opportunity .maincircle .maincircle2 div {
+    height: 11px;
+    width: 11px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.section4 .opportunity .maincircle .maincircle2 div:hover {
+    background: #ffffff;
+}
+
+/* code for section 5*/
+
+.section5 {
+    height: 107vh;
+    width: 100%;
+    background: #157dec;
+}
+
+.section5 .ourskill .skill {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 170px;
+    padding-top: 50px;
+}
+
+.section5 .ourskill .skill::after {
+    content: '';
+    position: absolute;
+    height: 8px;
+    width: 250px;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+.section5 .ourskill .skilldetail .skilldetailmore {
+    margin: 80px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.section5 .ourskill .skilldetail .skilldetailmore .countings img {
+    padding-bottom: 25px;
+    width: 55%;
+}
+
+.section5 .ourskill .skilldetail .skilldetailmore .countings p {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+
+.section5 .ourskill .skilltext p {
+    margin-left: 150px;
+    font-size: 1rem;
+    color: #ffffff;
+    padding-bottom: 20px;
+    letter-spacing: 0.8px;
+}
+
+/* code for section 6*/
+
+.section6 {
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.section6 .contact .contactus {
+    padding-top: 50px;
+    padding-left: 150px;
+}
+
+.section6 .contact .contactus p {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.section6 .contact .contactus::after {
+    content: '';
+    position: absolute;
+    height: 7px;
+    width: 230px;
+    border-radius: 5px;
+    background: #000000;
+}
+
+.section6 .contact .address {
+    padding-top: 40px;
+    padding-left: 150px;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.5;
+}
+
+.section6 .contact .logos {
+    padding-left: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section6 .contact .logos img {
+    padding-left: 20px;
+}
+
+.section6 .contact .form {
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+.section6 .contact .form input {
+    padding: 10px;
+    margin-left: 30px;
+    width: 280px;
+    outline: #000000;
+    border: 2px solid #000000;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.section6 .contact .form input::placeholder {
+    padding-left: 3px;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.7px;
+}
+
+.section6 .contact .form .message input {
+    margin-top: 30px;
+    width: 594px;
+    height: 50px;
+}
+
+.section6 .contact .form .message .submit {
+    height: 50px;
+    width: 150px;
+    background-color: #ffffff;
+    color: #157dec;
+    margin-top: -50px;
+    margin-left: 645px;
+    padding-left: 40px;
+    padding-top: 12px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+/* Happy Ending */
